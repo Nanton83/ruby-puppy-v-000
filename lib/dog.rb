@@ -10,7 +10,8 @@ class Dog
  
  def self.all
  @@all.each do |name|
-end 
+end
+puts name
 end 
 
 def self.clear_all
